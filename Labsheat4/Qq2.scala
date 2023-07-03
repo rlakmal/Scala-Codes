@@ -1,8 +1,7 @@
-
 object Qq2 {
   def main(args:Array[String]):Unit={
     print("Enter Integer number :");
-    val num = scala.io.StdIn.readInt();
+    val num = args(0).toInt;
     print("Number is :"+ patternMatching(num));
 
 
