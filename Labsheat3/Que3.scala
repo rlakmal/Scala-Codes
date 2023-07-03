@@ -8,9 +8,9 @@ object Que3 {
     println(ret_val);
   }
 
-  def mean(num1: Int, num2: Int): String = {
+  def mean(num1: Int, num2: Int): Double = {
     val ave = (num1+num2)/2.0;
-    return (f"$ave%1.2f")
+    return (f"$ave%1.2f").toDouble
   }
 
 }
