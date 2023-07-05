@@ -1,10 +1,6 @@
 
 object Qq3 {
     def main(args: Array[String]): Unit = {
-      formatter()
-    }
-
-    def formatter(): Unit = {
       println(formatNames("Benny")(toUpper))
       println(formatNames("Ni")(toUpper) + "roshan")
       println(formatNames("Saman")(toLower))
