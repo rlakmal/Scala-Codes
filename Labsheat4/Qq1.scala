@@ -1,8 +1,7 @@
 
 object Qq1 {
   def main(args: Array[String]): Unit = {
-    print("Enter your deposit amount :");
-    var dep = scala.io.StdIn.readDouble();
+    print("Enter your deposit amount :");    var dep = scala.io.StdIn.readDouble();
     println("Interest is "+ interest(dep));
 
   }
