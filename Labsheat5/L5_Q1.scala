@@ -14,14 +14,14 @@ object L5_Q1 {
     }
   }
 
-  def checkPrime(n: Int, divisor: Int): Boolean = {
-    for(i<- divisor to n){
+  def checkPrime(n: Int, i: Int): Boolean = {
+
       if(n%i==0 && i!=n){
         return false;
       }else if(i==n){
         return true;
       }
-    }
-      checkPrime(n, divisor+1);
+97
+      checkPrime(n, i+1);
     }
 }
