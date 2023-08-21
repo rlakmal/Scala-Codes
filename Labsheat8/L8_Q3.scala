@@ -8,9 +8,7 @@ object L8_Q3 {
   }
 
   val toUpper: String => String = (input: String) => input.toUpperCase()
-
   val toLower: String => String = (input: String) => input.toLowerCase()
-
   val formatNames: (String, Int) => String = (word: String, index: Int) => {
     val wordChar = word.charAt(index)
     val modified = wordChar.toUpper

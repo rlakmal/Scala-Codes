@@ -9,7 +9,7 @@ object L8_Q1 {
       }
     }
 
-    val depositAmount = 250000.0
+    val depositAmount = 5000.0
     val interest = calculateInterest(depositAmount)
     println(s"Interest earned: $interest")
   }
